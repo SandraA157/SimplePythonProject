@@ -1,0 +1,38 @@
+Sudoku Project
+
+## Overview
+This Sudoku Project originated as my second venture into testing my programming capabilities in Python and PyQt5. While not perfect due to my limited abilities at the time and my transition from non-UI to UI software.
+
+## Features
+- Sudoku Generator: Generates Sudoku puzzles for users to solve.
+- Answer Checker: Allows users to check if their solution to a Sudoku puzzle is correct.
+- Timer: Includes a timer to track how long users take to solve puzzles.
+
+## Installation
+To use this application (only in Linux), follow these steps:
+1. Download the Application: Download Python file to your local machine.
+
+2. Install Python: Ensure you have Python installed on your system. You can download and install Python from [python.org](https://www.python.org/downloads/).
+
+3. Set Up Environment (Optional but Recommended): It's good practice to work within a virtual environment to isolate your project's dependencies. Here's how you can set up and activate a virtual environment:
+Install virtualenv (if not already installed):
+   pip install virtualenv
+   
+Create a virtual environment:
+   virtualenv sudoku_env
+
+Activate the virtual environment (On Linux):
+   source sudoku_env/bin/activate
+
+4. Install Required Libraries: Use `pip`, the Python package installer, to install the required libraries. Open a terminal or command prompt and run the following commands:
+   pip install pandas PyQt5 
+
+5. Run the Program: Launch the application by running the Python script:
+   python sudoku.py
+   Alternatively, you can run the program from an IDE.
+** You can change the difficulty level on script.
+
+## Development Environment
+- Operating System: Ubuntu 20.04
+- Python Version: Python 3.8.10
+
