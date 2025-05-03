@@ -17,8 +17,13 @@ letter_counts = {}
 for letter in letters:
     letter_counts[letter] = letter_counts.get(letter, 0) + 1
 
+vowel = ['a', 'i', 'u', 'e', 'o']
+
 # Print the sorted word frequencies
 sorted_letters = sorted(letter_counts.keys())
 for letter in sorted_letters:
-    count	 = letter_counts[letter]
-    print(f"{letter}: {count}")
+    if letter in vowel:
+        count         = letter_counts[letter]
+        print(f"{letter}: {count}")
+    else:
+        None
